@@ -1,0 +1,133 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gaia-test > karma > connect > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > debug
+    - gaia-test > karma > connect > body-parser > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > body-parser > debug
+    - gaia-test > karma > connect > compression > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > compression > debug
+    - gaia-test > karma > connect > connect-timeout > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > connect-timeout > debug
+    - gaia-test > karma > connect > express-session > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > express-session > debug
+    - gaia-test > karma > connect > finalhandler > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > finalhandler > debug
+    - gaia-test > karma > connect > morgan > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > morgan > debug
+    - gaia-test > karma > connect > serve-index > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > serve-index > debug
+    - gaia-test > karma > connect > serve-static > send > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > karma > connect > serve-static > send > debug
+    - gaia-test > mocha > debug:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:debug:20170905'
+        path: gaia-test > mocha > debug
+  'npm:lodash:20180130':
+    - gaia-test > karma > lodash:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:lodash:20180130'
+        path: gaia-test > karma > lodash
+  'npm:mime:20170907':
+    - gaia-test > karma > connect > serve-static > send > mime:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:mime:20170907'
+        path: gaia-test > karma > connect > serve-static > send > mime
+  'npm:minimatch:20160620':
+    - gaia-test > karma > minimatch:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:minimatch:20160620'
+        path: gaia-test > karma > minimatch
+    - gaia-test > mocha > glob > minimatch:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:minimatch:20160620'
+        path: gaia-test > mocha > glob > minimatch
+  'npm:ms:20170412':
+    - gaia-test > karma > connect > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > debug > ms
+    - gaia-test > karma > connect > connect-timeout > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > connect-timeout > ms
+    - gaia-test > karma > connect > body-parser > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > body-parser > debug > ms
+    - gaia-test > karma > connect > compression > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > compression > debug > ms
+    - gaia-test > karma > connect > connect-timeout > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > connect-timeout > debug > ms
+    - gaia-test > karma > connect > express-session > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > express-session > debug > ms
+    - gaia-test > karma > connect > finalhandler > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > finalhandler > debug > ms
+    - gaia-test > karma > connect > morgan > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > morgan > debug > ms
+    - gaia-test > karma > connect > serve-index > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > serve-index > debug > ms
+    - gaia-test > karma > connect > serve-static > send > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > serve-static > send > ms
+    - gaia-test > karma > connect > serve-static > send > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > serve-static > send > debug > ms
+    - gaia-test > karma > connect > serve-favicon > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20170412'
+        path: gaia-test > karma > connect > serve-favicon > ms
+  'npm:ms:20151024':
+    - gaia-test > mocha > debug > ms:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ms:20151024'
+        path: gaia-test > mocha > debug > ms
+  'npm:negotiator:20160616':
+    - gaia-test > karma > connect > compression > accepts > negotiator:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:negotiator:20160616'
+        path: gaia-test > karma > connect > compression > accepts > negotiator
+    - gaia-test > karma > connect > serve-index > accepts > negotiator:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:negotiator:20160616'
+        path: gaia-test > karma > connect > serve-index > accepts > negotiator
+  'npm:ws:20160920':
+    - gaia-test > karma > socket.io > socket.io-client > ws:
+        patched: '2024-02-19T01:40:33.094Z'
+        id: 'npm:ws:20160920'
+        path: gaia-test > karma > socket.io > socket.io-client > ws
