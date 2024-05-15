@@ -8,7 +8,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "gaia-test-lint && gaia-test-unit"
+    "test": "gaia-test-lint && gaia-test-unit",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/gaia-components/gaia-tabs",
   "dependencies": {
-    "gaia-test": "git://github.com/gaia-components/gaia-test"
-  }
+    "gaia-test": "git://github.com/gaia-components/gaia-test",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
