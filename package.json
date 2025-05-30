@@ -77,7 +77,7 @@
     "json-templater-fix": "^1.0.2",
     "jszip": "^2.5.0",
     "node-uuid": "^1.4.3",
-    "yargs": "^3.29.0"
+    "yargs": "^18.0.0"
   },
   "scripts": {
     "refresh": "npmr install",
