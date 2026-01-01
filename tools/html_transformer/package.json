@@ -6,7 +6,7 @@
 
   "dependencies": {
     "es6-promise": "^2.3.0",
-    "jsdom": "^3"
+    "jsdom": "^16.6.0"
   },
 
   "devDependencies": {
